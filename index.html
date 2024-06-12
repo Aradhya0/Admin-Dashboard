@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="profilepicture.png" alt="Profile Picture">
+                <div class="profile-info">
+                    <h3>Aradhya Kumar</h3>
+                    <p>Online</p>
+                </div>
+            </div>
+            <ul>
+                <li>Widgets</li>
+                <li>Elements</li>
+                <li>Tables</li>
+                <li>Apps</li>
+                <li>Pricing Tables</li>
+                <li>Contact</li>
+                <li>Additional Pages</li>
+                <li>Map</li>
+                <li>Charts</li>
+                <li>Settings</li>
+            </ul>
+        </aside>
+        <main class="main-content">
+            <header class="navbar">
+                <div class="navbar-left">
+                    <h1>Admin Dashboard</h1>
+                </div>
+                <div class="navbar-right">
+                    <input type="text" placeholder="Search">
+                    <button class="search-btn">🔍</button>
+                    <div class="notifications">
+                        <span>🔔</span>
+                        <span>✉️</span>
+                        <span>❓</span>
+                    </div>
+                    <div class="profile-nav">
+                        <img src="profilepicture.png" alt="Profile Picture">
+                        <p>Aradhya Kumar</p>
+                    </div>
+                </div>
+            </header>
+            <section class="dashboard">
+                <div class="card">
+                    <h3>3500</h3>
+                    <p>Welcome</p>
+                </div>
+                <div class="card">
+                    <h3>178.50</h3>
+                    <p>Average Time</p>
+                </div>
+                <div class="card">
+                    <h3>6,795</h3>
+                    <p>Collections</p>
+                </div>
+                <div class="card">
+                    <h3>156</h3>
+                    <p>Comments</p>
+                </div>
+            </section>
+            <section class="social-cards">
+                <div class="social-card facebook">
+                    <h3>49k Friends</h3>
+                    <p>117 Posts</p>
+                </div>
+                <div class="social-card twitter">
+                    <h3>877k Followers</h3>
+                    <p>17.5K Tweets</p>
+                </div>
+                <div class="social-card linkedin">
+                    <h3>2568+ Contacts</h3>
+                    <p>63 Posts</p>
+                </div>
+                <div class="social-card google-plus">
+                    <h3>896 Followers</h3>
+                    <p>252 Circles</p>
+                </div>
+            </section>
+            <section class="charts">
+                <div class="chart">
+                    <h3>Extra Area Chart</h3>
+                    <canvas id="myChart"></canvas>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
